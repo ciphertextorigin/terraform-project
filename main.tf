@@ -4,7 +4,7 @@ provider "aws" {
 
 module "lambda-apigw-module" {
   source               = "uzotony1/lambda-apigw-module/aws"
-  version              = "0.0.2"
+  version              = "0.0.3"
   project_name         = "helloworld-app"
   source_path          = "./main.js"
   lambda_function_name = "my_lambda_function_name"
