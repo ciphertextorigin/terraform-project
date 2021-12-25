@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-module "lambda-apigw-module" { 
+module "lambda-apigw-module" {
   source               = "uzotony1/lambda-apigw-module/aws"
   version              = "0.0.3"
   project_name         = "helloworld-app"
