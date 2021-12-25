@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "lambda-apigw-module" {
-  source               = "jeremygovi/lambda-apigw-module/aws"
+  source               = "uzotony1/lambda-apigw-module/aws"
   version              = "0.0.2"
   project_name         = "helloworld-app"
   source_path          = "./main.js"
