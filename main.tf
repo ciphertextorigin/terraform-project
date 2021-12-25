@@ -1,7 +1,6 @@
 provider "aws" {
   region = "us-east-1"
 }
-
 module "lambda-apigw-module" {
   source  = "jeremygovi/lambda-apigw-module/aws"
   version = "0.0.3"
@@ -15,6 +14,3 @@ module "lambda-apigw-module" {
     customEnvVariable = "prod" 
   }
 }
-
-  
-  
