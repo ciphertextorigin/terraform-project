@@ -1,11 +1,11 @@
 # terraform-project
 
-Terraform module to deploy nodejs webapp to AWS Lambda fronted by API Gateway
+Terraform module to deploy nodejs webapp to AWS Lambda frontend by API Gateway
 
 ## How to use
 
 
-### Create and setup a new project direcory
+### Create and setup a new project directory
 
 ```
 mkdir -p helloworld-app
