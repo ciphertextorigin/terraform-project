@@ -43,3 +43,4 @@ Go to the github repo settings and create secrets for `AWS_ACCESS_KEY_ID`and `AW
 Create a `.github/workflows/terraform.yml` file in your github project
 
 This pipeline will do a terraform fmt/plan for every push on master and pull requests. Apply will be done only on master changes.
+To clean the stack, clone the repository and put terraform destroy command
