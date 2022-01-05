@@ -1,6 +1,14 @@
 # terraform-project
 
 Terraform module to deploy nodejs webapp to AWS Lambda frontend by API Gateway
+## POST AND GET REQUEST API
+Post: curl --location --request POST 'https://iz9zvwmco0.execute-api.us-east-1.amazonaws.com/helloworld-app?name=John&city=Seattle' \
+--header 'content-type: application/json' \
+--header 'day: Thursday' \
+--data-raw '{ "time": "evening" }'
+
+Get: curl --location --request GET 'https://iz9zvwmco0.execute-api.us-east-1.amazonaws.com/helloworld-app'
+
 
 ## How to use
 
